@@ -6,6 +6,7 @@ class Year
       'Yes, #{year} is a leap year'
     else
       "No, #{year} is not a leap year"
+      return false
     end
   end
 
